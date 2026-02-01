@@ -10,5 +10,7 @@ dependencies = [
     "flask-sqlalchemy>=3.1.1",
     "flask[async]>=3.1.2",
     "mysqlclient>=2.2.7",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
     "watch>=0.2.7",
 ]

@@ -1,10 +1,9 @@
 import os
-
+# 使用session时,会使用secret_key
 SECRET_KEY = "sdfsdfk2rjl23"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MEDIA_DIR = os.path.join(BASE_DIR, "media")
-
 
 MYSQL_HOST = '127.0.0.1'
 MYSQL_PORT = 3306
